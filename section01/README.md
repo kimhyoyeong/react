@@ -97,7 +97,7 @@ DOM에 변화가 생기면, 렌더트리를 재생성하고 레이아웃을 만�
 
    ```bash
    cd hello-react
-   yarn start
+   npm start
    ```
 
    를 입력, 리액트 프로젝트가 시작!
