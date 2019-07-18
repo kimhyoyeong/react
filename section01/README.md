@@ -123,28 +123,3 @@ DOM에 변화가 생기면, 렌더트리를 재생성하고 레이아웃을 만�
    를 입력, 리액트 프로젝트가 시작!
 
 
-
-**tip) react-hot-loader 적용하기**
-
-1. react-hot-loader 를 설치 (@next 최신버전)
-
-   ```bash
-   yarn add --dev react-hot-loader@next
-   ```
-
-2. package.json 에서 babel 설정
-
-   ```json
-   {
-     "name": "hot-loader-next",
-     "version": "0.1.0",
-     "private": true,
-     "dependencies": {
-       "react": "^16.2.0",
-       "react-dom": "^16.2.0",
-       "react-hot-loader": "next",
-       "react-scripts": "1.1.0"
-     },...
-   ```
-
-   
